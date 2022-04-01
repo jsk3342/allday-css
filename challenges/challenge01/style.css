@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 100px auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.header {
+  padding: 8px 0;
+}
+
+.header h1 {
+  margin: 20px 0;
+  padding-left: 32px;
+  border-left: 8px solid hotpink;
+  color: hotpink;
+  font-size: 30px;
+}
+
+.contents {
+  background-color: rgb(240, 240, 240);
+  padding: 20px 20px;
+}
+
+.contents .section {
+  padding: 12px 0;
+  margin: 12px 0;
+  background-color: white;
+  box-shadow: 0 1px 7px black;
+  color: gray;
+  border: 2px gray;
+}
+
+.contents .section h2 {
+  margin-left: 20px;
+  font-size: 20px;
+}
