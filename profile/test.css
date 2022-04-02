@@ -1,0 +1,57 @@
+/* 초기화 태그 및 타입 셀렉터 */
+
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/background.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+div {
+  background-color: orange;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+/* 바디 컨텐츠 시작 */
+
+.wrapper {
+  margin: 40px auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* 해더 */
+.header {
+  padding: 40px 0 60px;
+  background-image: url(images/cover04.png);
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.header .profile {
+  border-radius: 200px / 100px;
+  width: 140px;
+  border: 5px solid;
+}
+
+/* 섹션 */
+.section {
+  background-color: #999;
+}
+
+/* footer */
+.footer {
+  background-color: white;
+}
