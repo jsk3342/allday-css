@@ -1,0 +1,38 @@
+/* 타입 셀렉터 */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 해더 */
+.header {
+  height: 80px;
+  padding: 0 40px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-icon {
+  width: 46px;
+  height: 64px;
+}
+
+.header-icon_img {
+  height: 65%;
+  width: 70%;
+}
+
+.header-nav {
+}
+
+/* 메인 */
+.wrapper {
+  background-color: orange;
+  width: 568px;
+  margin-left: auto;
+  margin-right: auto;
+}

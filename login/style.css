@@ -1,0 +1,142 @@
+/* 타입 셀렉터 */
+body,
+header,
+a,
+img,
+nav,
+ul,
+li,
+main,
+input {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: black;
+}
+
+footer {
+  background-color: #111111;
+}
+/* 해더 */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.header-ul {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.header_nav {
+  padding: 0 15px;
+}
+
+.orange {
+  color: orange;
+}
+
+/* 로그인창 메인 */
+.main {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  text-align: center;
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 300px;
+}
+
+.main-title {
+  font-size: 30px;
+  padding: 80px 0;
+}
+
+.wapper-input {
+  width: auto;
+  overflow: hidden;
+}
+
+.input {
+  margin: 10px 0;
+  width: 99%;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid #666;
+  border-radius: 6px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #111111;
+}
+
+.input:hover {
+  border: 1px solid white;
+}
+
+.wapper-2btu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wapper-btu {
+  width: 50%;
+}
+
+.btu {
+  background: #333;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  height: 54px;
+  line-height: 54px;
+  width: 90%;
+  box-shadow: 0;
+  border: 0;
+  border-radius: 40px;
+  margin-top: 20px;
+  transition: all 0.4s;
+}
+
+.login-btu {
+  background: orange;
+  color: black;
+}
+
+.btu:hover {
+  color: #333;
+  background: #fff;
+}
+
+.main-sub {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.main-sub_a {
+  color: orange;
+  text-decoration: underline;
+}
+/* 푸터 하단 */
+.footer {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.footer_img {
+  width: 30%;
+  height: 30%;
+}
